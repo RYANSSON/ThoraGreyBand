@@ -1,0 +1,163 @@
+﻿.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+    .container, .container * {
+        position: relative;
+    }
+
+.screen-reader {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.center-vertically {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-grid {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.carousel {
+    overflow: hidden;
+}
+
+    .carousel ul {
+        position: relative;
+        height: 450px;
+        padding: 0px;
+        margin: 0px auto;
+        list-style-type: none;
+
+    }
+
+    .carousel .button i{
+        font-size: 20px;
+        font-size: 2rem;
+        background-color: transparent;
+        display: block;
+        text-align: center;
+        padding: 0px;
+        margin: 0;
+        color: #fff;
+    }
+
+    .carousel .button i:hover, .carousel .button i:focus {
+            color: yellow;
+            border-bottom: none;
+            cursor: pointer;
+    }
+
+.carousel__slides {
+    -webkit-box-flex: 2 0;
+    -ms-flex: 2 0 auto;
+    flex: 2 0 auto;
+    flex: 1;
+}
+
+.carousel__slide {
+    padding: 0px 16px;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+    .carousel__slide.active {
+        opacity: 1;
+        z-index: 2;
+    }
+
+.carousel__controls {
+    flex: initial;
+    -webkit-flex: 0 1 auto;
+}
+
+.carousel iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel li {
+   
+}
+
+#tiny, #mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #mobile {
+        display: block;
+    }
+
+    #desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .carousel .button {
+        font-size: 1.5rem;
+    }
+
+    .carousel__slide {
+        padding: 0px;
+    }
+
+    .button--prev {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .button--next {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .carousel ul {
+        height: 200px;
+    }
+
+    .flex-grid {
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 374px) {
+    .carousel #mobile {
+        display: none !important;
+    }
+}
+
+@media (max-width: 320px) {
+    #tiny {
+        display:block;
+    }
+}
