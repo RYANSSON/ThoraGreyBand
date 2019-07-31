@@ -49,8 +49,8 @@ C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\bin\roslyn\VBCSCompiler.exe
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\obj\Debug\ThoraGrey.csprojAssemblyReference.cache
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\obj\Debug\ThoraGrey.csproj.CoreCompileInputs.cache
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\obj\Debug\ThoraGrey.csproj.CopyComplete
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\obj\Debug\ThoraGrey.dll
 C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\obj\Debug\ThoraGrey.pdb
+C:\Users\ryanw\source\repos\ThoraGrey\ThoraGrey\obj\Debug\ThoraGrey.csprojAssemblyReference.cache
